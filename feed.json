@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://vibemarketing.cz/novy-post/",
+            "url": "https://vibemarketing.cz/novy-post/",
+            "title": "novy post",
+            "summary": "test nového postu",
+            "content_html": "\n  <p>\n    test nového postu\n  </p>",
+            "author": {
+                "name": "František Mlčůch"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-02-05T14:55:28+01:00",
+            "date_modified": "2026-02-05T14:55:41+01:00"
+        },
+        {
             "id": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/",
             "url": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/",
             "title": "system.init: Proč vznikl Vibe Marketing?",

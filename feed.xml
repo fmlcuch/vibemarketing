@@ -3,12 +3,35 @@
     <title>Vibe Marketing | Český radar na trendy 🤖</title>
     <link href="https://vibemarketing.cz/feed.xml" rel="self" />
     <link href="https://vibemarketing.cz" />
-    <updated>2026-02-05T14:48:53+01:00</updated>
+    <updated>2026-02-05T14:55:41+01:00</updated>
     <author>
         <name>František Mlčůch</name>
     </author>
     <id>https://vibemarketing.cz</id>
 
+    <entry>
+        <title>novy post</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/novy-post/"/>
+        <id>https://vibemarketing.cz/novy-post/</id>
+
+        <updated>2026-02-05T14:55:28+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    test nového postu
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    test nového postu
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>system.init: Proč vznikl Vibe Marketing?</title>
         <author>
