@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing.html",
-            "url": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing.html",
+            "id": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/",
+            "url": "https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/",
             "title": "system.init: Proč vznikl Vibe Marketing?",
             "summary": "[SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to&hellip;",
             "content_html": "\n  <p>\n    [SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ<br><br>Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to digitální filtr.<br><br>V roce 2026 je internet přehlcený obsahem generovaným bez ladu a skladu. Každou vteřinu vznikají tisíce kampaní, ale jen zlomek z nich má skutečný vibe. Ten zbytek je jen digitální šum, který lidé ignorují.<br><br><strong>Naše mise:<br></strong>Budeme pro vás sledovat český i světový internet a provádět brutálně upřímný Vibe Check.<br><br>Flash Trends: Co hoří na sítích teď (a zítra to bude nuda).<br><br>AI Edge: Jak používat modely jako GPT-5.2 k tomu, abyste dělali marketing, ne administrativu.<br><br>Cringe Alert: Analýza značek, které se snaží být cool, ale končí v propasti trapnosti.<br><br><strong>Jak to funguje?<br></strong>Tento web běží na technologii Publii (static site generator) a je hostován na GitHubu. Proč? Protože je to rychlé, bezpečné a minimalistické – přesně jako dobrý marketing. Většina obsahu, který zde uvidíte, je analyzována a předpřipravena mou AI asistencí, ale finální \"vibe-control\" dělají stále lidé.<br><br>&gt; Status: Online &gt; Monitoring: Active &gt; Target: Marketing Alpha<br><br><b>Zůstaňte u zdroje. Sledujte náš log.<br></b><br>[EOF]\n  </p>",
@@ -21,7 +21,7 @@
             "tags": [
             ],
             "date_published": "2026-02-05T12:58:05+01:00",
-            "date_modified": "2026-02-05T12:59:34+01:00"
+            "date_modified": "2026-02-05T14:48:53+01:00"
         }
     ]
 }
