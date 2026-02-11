@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vyzkoušet zdarma - Vibe Marketing | Český radar na trendy 🤖</title><meta name="description" content="Získejte svůj Viral Vibe Vložte odkaz na svůj článek a my vám ho „rozvibrujeme“ pro sítě. Poslat Magic Link"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://vibemarketing.cz/vyzkouset-zdarma/"><link rel="alternate" type="application/atom+xml" href="https://vibemarketing.cz/feed.xml" title="Vibe Marketing | Český radar na trendy 🤖 - RSS"><link rel="alternate" type="application/json" href="https://vibemarketing.cz/feed.json" title="Vibe Marketing | Český radar na trendy 🤖 - JSON"><meta property="og:title" content="Vyzkoušet zdarma"><meta property="og:site_name" content="Vibe Marketing | Český radar na trendy 🤖"><meta property="og:description" content="Získejte svůj Viral Vibe Vložte odkaz na svůj článek a my vám ho „rozvibrujeme“ pro sítě. Poslat Magic Link"><meta property="og:url" content="https://vibemarketing.cz/vyzkouset-zdarma/"><meta property="og:type" content="article"><link rel="stylesheet" href="https://vibemarketing.cz/assets/css/style.css?v=cfe661ba3e98f729e5166b741a4e506d"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://vibemarketing.cz/vyzkouset-zdarma/"},"headline":"Vyzkoušet zdarma","datePublished":"2026-02-11T13:16+01:00","dateModified":"2026-02-11T13:41+01:00","description":"Získejte svůj Viral Vibe Vložte odkaz na svůj článek a my vám ho „rozvibrujeme“ pro sítě. Poslat Magic Link","author":{"@type":"Person","name":"František Mlčůch","url":"https://vibemarketing.cz/authors/frantisek-mlcuch/"},"publisher":{"@type":"Organization","name":"František Mlčůch"}}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="page-template"><header class="top js-header"><a class="logo" href="https://vibemarketing.cz/">Vibe Marketing | Český radar na trendy 🤖</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://vibemarketing.cz/tags/reports/" target="_self">Reports</a></li><li><a href="https://vibemarketing.cz/tags/cringe-check/" target="_self">Cringe Check</a></li><li><a href="https://vibemarketing.cz/tags/ai-workflow/" target="_self">AI Workflow</a></li><li><a href="https://vibemarketing.cz/tags/flash-trends/" target="_self">⚡️ Flash Trends</a></li></ul></nav></header><main class="page"><div class="content"><div class="hero"><div class="hero__content"><div class="wrapper"><h1>Vyzkoušet zdarma</h1></div></div></div><div class="wrapper content__entry content__entry--nospace"><div><div class="vibe-form"><h3>Získejte svůj Viral Vibe</h3><p>Vložte odkaz na svůj článek a my vám ho „rozvibrujeme“ pro sítě.</p><form id="magicLinkForm"><input type="url" id="articleUrl" placeholder="URL vašeho článku" required style="width: 100%; margin-bottom: 10px; padding: 10px;"> <input type="email" id="userEmail" placeholder="Váš e-mail" required style="width: 100%; margin-bottom: 10px; padding: 10px;"> <button type="submit" style="background: #000; color: #fff; padding: 10px 20px; border: none; cursor: pointer;">Poslat Magic Link</button></form><div id="formMessage" style="display:none; margin-top: 20px; font-weight: bold;"></div></div><script>document.getElementById('magicLinkForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button');
+    const msg = document.getElementById('formMessage');
+    btn.disabled = true;
+    btn.innerText = 'Odesílám...';
+
+    const data = {
+        url: document.getElementById('articleUrl').value,
+        email: document.getElementById('userEmail').value
+    };
+
+    // Sem vložíme URL z Make.com
+    fetch('https://hook.eu1.make.com/we18p1at24g5ve3f6ynhp3b1kvhw7vj8', {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json' }
+    })
+    .then(response => {
+        msg.style.display = 'block';
+        msg.innerText = 'Zkontrolujte si e-mail! Poslali jsme vám Magic Link pro potvrzení.';
+        btn.innerText = 'Odesláno';
+    })
+    .catch(error => {
+        msg.innerText = 'Chyba. Zkuste to znovu.';
+        btn.disabled = false;
+    });
+});</script></div></div></div></main><footer class="footer"><div class="wrapper"><div class="footer__copyright"><p>Powered by Publii</p></div><button id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg width="20" height="20"><use xlink:href="https://vibemarketing.cz/assets/svg/svg-map.svg#toparrow"/></svg></button></div></footer><script defer="defer" src="https://vibemarketing.cz/assets/js/scripts.min.js?v=d0fc1030089a37f93a2d51bf6d07565c"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script></body></html>

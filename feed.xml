@@ -3,7 +3,7 @@
     <title>Vibe Marketing | Český radar na trendy 🤖</title>
     <link href="https://vibemarketing.cz/feed.xml" rel="self" />
     <link href="https://vibemarketing.cz" />
-    <updated>2026-02-05T14:55:41+01:00</updated>
+    <updated>2026-02-05T14:57:10+01:00</updated>
     <author>
         <name>František Mlčůch</name>
     </author>
@@ -16,6 +16,8 @@
         </author>
         <link href="https://vibemarketing.cz/novy-post/"/>
         <id>https://vibemarketing.cz/novy-post/</id>
+            <category term="🤖 AI Workflow"/>
+            <category term="📈 Reports"/>
 
         <updated>2026-02-05T14:55:28+01:00</updated>
             <summary type="html">
@@ -43,7 +45,7 @@
         <updated>2026-02-05T12:58:05+01:00</updated>
             <summary type="html">
                 <![CDATA[
-                    [SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to&hellip;
+                    [SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to digitální filtr. V roce 2026 je internet přehlcený obsahem generovaným bez ladu a skladu. Každou vteřinu vznikají tisíce kampaní, ale&hellip;
                 ]]>
             </summary>
         <content type="html">
