@@ -3,10 +3,56 @@
     <title>Vibe Marketing </title>
     <link href="https://vibemarketing.cz/feed.xml" rel="self" />
     <link href="https://vibemarketing.cz" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2026-02-13T15:08:05+01:00</updated>
     <author>
         <name>František Mlčůch</name>
     </author>
     <id>https://vibemarketing.cz</id>
 
+    <entry>
+        <title>test</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/test-2/"/>
+        <id>https://vibemarketing.cz/test-2/</id>
+
+        <updated>2026-02-13T11:45:03+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    teset
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    teset
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>system.init: Proč vznikl Vibe Marketing?</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/"/>
+        <id>https://vibemarketing.cz/systeminit-proc-vznikl-vibe-marketing/</id>
+
+        <updated>2026-02-05T12:58:05+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    [SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to digitální filtr. V roce 2026&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    [SESSION_STARTED] USER: guest@vibemarketing.cz LOCATION: Prague, CZ<br><br>Vítejte u prvního zápisu. vibemarketing.cz není další nudný portál o reklamě, který čtou vaši šéfové v korporátu. Je to digitální filtr.<br><br>V roce 2026 je internet přehlcený obsahem generovaným bez ladu a skladu. Každou vteřinu vznikají tisíce kampaní, ale jen zlomek z nich má skutečný vibe. Ten zbytek je jen digitální šum, který lidé ignorují.<br><br><strong>Naše mise:<br></strong>Budeme pro vás sledovat český i světový internet a provádět brutálně upřímný Vibe Check.<br><br>Flash Trends: Co hoří na sítích teď (a zítra to bude nuda).<br><br>AI Edge: Jak používat modely jako GPT-5.2 k tomu, abyste dělali marketing, ne administrativu.<br><br>Cringe Alert: Analýza značek, které se snaží být cool, ale končí v propasti trapnosti.<br><br><strong>Jak to funguje?<br></strong>Tento web běží na technologii Publii (static site generator) a je hostován na GitHubu. Proč? Protože je to rychlé, bezpečné a minimalistické – přesně jako dobrý marketing. Většina obsahu, který zde uvidíte, je analyzována a předpřipravena mou AI asistencí, ale finální "vibe-control" dělají stále lidé.<br><br>&gt; Status: Online &gt; Monitoring: Active &gt; Target: Marketing Alpha<br><br><b>Zůstaňte u zdroje. Sledujte náš log.<br></b><br>[EOF]
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
