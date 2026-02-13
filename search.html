@@ -1,38 +1,70 @@
-<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search - Vibe Marketing</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://vibemarketing.cz/feed.xml" title="Vibe Marketing  - RSS"><link rel="alternate" type="application/json" href="https://vibemarketing.cz/feed.json" title="Vibe Marketing  - JSON"><meta property="og:title" content="Vibe Marketing "><meta property="og:site_name" content="Vibe Marketing "><meta property="og:description" content=""><meta property="og:url" content="https://vibemarketing.cz/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://vibemarketing.cz/media/website/vibemarketing.favicon_.png" type="image/png"><link rel="stylesheet" href="https://vibemarketing.cz/assets/css/style.css?v=0761bdefaef6113c9058e3ddbec620ad"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Vibe Marketing ","url":"https://vibemarketing.cz/"}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet"></head><body><header class="site-header is-sticky"><div class="container"><a class="site-title" href="https://vibemarketing.cz/">Vibe Marketing</a><nav class="site-nav" aria-label="Main"><nav><ul class="menu"><li><a href="https://vibemarketing.cz/#jak" target="_self">Jak to funguje</a></li><li><a href="https://vibemarketing.cz/#co-dostanete" target="_self">Co dostanete</a></li><li><a href="https://vibemarketing.cz/#cenik" target="_self">Ceník</a></li><li class="tlacitko"><a href="https://vibemarketing.cz/#try" target="_self">Analyzovat</a></li></ul></nav></nav></div></header><main class="container"><div class="search-results"></div></main><footer></footer><script async src="https://vibemarketing.cz/assets/js/scripts.js?v=25d66ac1e81d93a047cfc6ac61c0cd9d"></script><script>(function () {
-  // 1. Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+<!DOCTYPE html><html lang="cs"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search - Vibe Marketing</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://vibemarketing.cz/feed.xml" title="Vibe Marketing  - RSS"><link rel="alternate" type="application/json" href="https://vibemarketing.cz/feed.json" title="Vibe Marketing  - JSON"><meta property="og:title" content="Vibe Marketing "><meta property="og:site_name" content="Vibe Marketing "><meta property="og:description" content=""><meta property="og:url" content="https://vibemarketing.cz/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://vibemarketing.cz/media/website/vibemarketing.favicon_.png" type="image/png"><link rel="stylesheet" href="https://vibemarketing.cz/assets/css/style.css?v=b6e753db2b9199ca635f4be81e292c0c"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Vibe Marketing ","url":"https://vibemarketing.cz/"}</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet"></head><body><header class="site-header is-sticky"><div class="container"><a class="site-title" href="https://vibemarketing.cz/">Vibe Marketing</a><nav class="site-nav" aria-label="Main"><nav class="navbar"><button class="navbar__toggle" id="vv-hamburger" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner"></span></span></button><div class="navbar_mobile_overlay is-hidden" id="vv-mobile-menu"><ul class="menu navbar__menu"><li><a href="https://vibemarketing.cz/#jak" target="_self">Jak to funguje</a></li><li><a href="https://vibemarketing.cz/#co-dostanete" target="_self">Co dostanete</a></li><li><a href="https://vibemarketing.cz/#cenik" target="_self">Ceník</a></li><li class="tlacitko"><a href="https://vibemarketing.cz/#try" target="_self">Analyzovat</a></li></ul></div></nav></nav></div></header><main class="container" style="min-height: 70vh; padding-top: 40px; padding-bottom: 80px;"><div class="search-wrapper" style="max-width: 800px; margin: 0 auto;"><header class="page-header" style="margin-bottom: 40px; text-align: center;"><h1 class="h1" style="font-size: 2.5rem; margin-bottom: 10px;">Hledat na webu</h1><p style="color: #94a3b8;">Zadejte klíčové slovo a my zkusíme najít shodu.</p></header><div class="search-results-area" style="color: #94a3b8;"></div></div></main><style>/* Styl pro input, který vloží Publii plugin */
+  .search-input input, 
+  #publii-search-input {
+    width: 100% !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 15px 25px !important;
+    border-radius: 15px !important;
+    color: #fff !important;
+    font-size: 1.1rem !important;
+    outline: none !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .search-input input:focus {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 15px rgba(236, 72, 153, 0.2) !important;
+  }
+
+  /* Styl pro výsledky hledání */
+  .search-results-area mark {
+    background: rgba(236, 72, 153, 0.3);
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }</style><footer></footer><script async src="https://vibemarketing.cz/assets/js/scripts.js?v=25d66ac1e81d93a047cfc6ac61c0cd9d"></script><script>(function () {
+// --- 1. SMOOTH SCROLL (OPRAVENÝ) ---
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    // Toto se teď spustí JEN pro odkazy začínající křížkem #
+    const targetId = this.getAttribute('href');
+    if (targetId === '#') return;
+    
+    const target = document.querySelector(targetId);
+    if (target) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) target.scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-
-  // 2. Simple Reveal Animation on Scroll (náhrada za těžké knihovny)
-  const observerOptions = { threshold: 0.1 };
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-
-  document.querySelectorAll('[data-aos]').forEach(el => {
-    // Set initial state via JS to avoid layout shift if JS fails
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-    // Handle delay
-    if(el.dataset.delay) {
-        el.style.transitionDelay = el.dataset.delay + 'ms';
+      target.scrollIntoView({ behavior: 'smooth' });
     }
-    observer.observe(el);
   });
+});
+    
+  // --- 2. REVEAL ANIMATION (AOS Replacement) ---
+  const aosElements = document.querySelectorAll('[data-aos]');
+  if (aosElements.length > 0) {
+    const observerOptions = { threshold: 0.1 };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
 
-  // 3. Hero Tilt Effect (Jemný 3D efekt myši)
+    aosElements.forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      if (el.dataset.delay) {
+        el.style.transitionDelay = el.dataset.delay + 'ms';
+      }
+      observer.observe(el);
+    });
+  }
+
+  // --- 3. HERO TILT EFFECT ---
   const hero = document.querySelector('.vv-hero');
   const card = document.querySelector('.vv-glass-card--hero');
   
@@ -40,18 +72,17 @@
     hero.addEventListener('mousemove', (e) => {
       const { clientX, clientY } = e;
       const { innerWidth, innerHeight } = window;
-      const x = (clientX / innerWidth - 0.5) * 20; // -10 to 10 deg
+      const x = (clientX / innerWidth - 0.5) * 20;
       const y = (clientY / innerHeight - 0.5) * 20;
-      
       card.style.transform = `perspective(1000px) rotateY(${x}deg) rotateX(${-y}deg)`;
     });
     
     hero.addEventListener('mouseleave', () => {
-      card.style.transform = `perspective(1000px) rotateY(-5deg) rotateX(5deg)`; // Reset to default
+      card.style.transform = `perspective(1000px) rotateY(-5deg) rotateX(5deg)`;
     });
   }
 
-  // 4. Form Handling
+  // --- 4. FORM HANDLING (Homepage) ---
   const form = document.getElementById('magicLinkForm');
   if (form) {
     form.addEventListener('submit', async (e) => {
@@ -59,118 +90,174 @@
       
       const btn = document.getElementById('submitBtn');
       const msg = document.getElementById('formMessage');
-      const url = document.getElementById('articleUrl').value;
-      const email = document.getElementById('userEmail').value;
+      const urlInput = document.getElementById('articleUrl');
+      const emailInput = document.getElementById('userEmail');
       const endpoint = form.getAttribute('data-endpoint');
 
-      // Validace
-      if (!url.includes('.') || !email.includes('@')) {
+      if (!urlInput.value.includes('.') || !emailInput.value.includes('@')) {
         msg.textContent = "Prosím zadejte platnou URL a e-mail.";
         msg.className = "vv-msg error";
         return;
       }
 
-      // Loading state
+      // UI Loading state
       const originalText = btn.querySelector('.btn-text').textContent;
-      btn.querySelector('.btn-text').textContent = "Pracuji...";
+      btn.querySelector('.btn-text').textContent = "Odesílám...";
       btn.disabled = true;
-      btn.style.opacity = "0.7";
 
       try {
-        // Simulace volání (nebo reálný fetch pokud je endpoint nastaven)
-        if (!endpoint || endpoint.includes('TVUJ_ENDPOINT')) {
-          throw new Error('Endpoint not configured');
-        }
-
         const response = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ url, email })
+          body: JSON.stringify({ 
+            url: urlInput.value, 
+            email: emailInput.value,
+            timestamp: new Date().toISOString()
+          }),
+          referrerPolicy: "no-referrer" 
         });
 
         if (response.ok) {
-          msg.textContent = "🚀 Hotovo! Magic Link je na cestě do vašeho e-mailu.";
+          msg.textContent = "🚀 Hotovo! Magic Link je na cestě.";
           msg.className = "vv-msg success";
           form.reset();
+          // Volitelně: přesměrování na loader stránku
+          // window.location.href = "/loading"; 
         } else {
-          throw new Error('Network response was not ok');
+          throw new Error('Chyba serveru');
         }
-
       } catch (error) {
-        console.error(error);
-        // Fallback pro demo účely (aby uživatel viděl success i bez backendu)
-        msg.textContent = "Magic Link odeslán! (Demo mód)"; 
+        console.error("Form error:", error);
+        msg.textContent = "Magic Link odeslán! (Demo mód)";
         msg.className = "vv-msg success";
       } finally {
         btn.disabled = false;
-        btn.style.opacity = "1";
         btn.querySelector('.btn-text').textContent = "Odesláno";
-        setTimeout(() => {
-           btn.querySelector('.btn-text').textContent = originalText;
-        }, 3000);
+        setTimeout(() => { btn.querySelector('.btn-text').textContent = originalText; }, 3000);
       }
     });
   }
-})();
-(function() {
+
+  // --- 5. PROGRESS LOADER (Pouze na loading stránce) ---
+  const progressFill = document.getElementById('vv-progress-fill');
+  if (progressFill) {
     let progress = 0;
-    const progressFill = document.getElementById('vv-progress-fill');
     const percentageText = document.getElementById('vv-percentage');
     const statusText = document.getElementById('vv-status-text');
+    const tasks = [
+      document.getElementById('task-1'),
+      document.getElementById('task-2'),
+      document.getElementById('task-3'),
+      document.getElementById('task-4')
+    ];
     
     const statuses = [
-        "Stahujeme obsah článku...",
-        "Identifikujeme hlavní entity...",
-        "Analyzujeme SEO mezery...",
-        "Generujeme sociální strategie...",
-        "Sestavujeme PPC strukturu...",
-        "Odesíláme report do e-mailu..."
-    ];
-
-    const tasks = [
-        document.getElementById('task-1'),
-        document.getElementById('task-2'),
-        document.getElementById('task-3'),
-        document.getElementById('task-4')
+      "Stahujeme obsah článku...",
+      "Identifikujeme hlavní entity...",
+      "Analyzujeme SEO mezery...",
+      "Generujeme sociální strategie...",
+      "Sestavujeme PPC strukturu...",
+      "Odesíláme report do e-mailu..."
     ];
 
     const interval = setInterval(() => {
-        // Zpomalení ke konci (pro efekt "přemýšlení")
-        let increment = progress < 80 ? 0.8 : 0.2;
-        progress += increment;
+      let increment = progress < 80 ? 0.8 : 0.15;
+      progress += increment;
 
-        if (progress >= 100) {
-            progress = 100;
-            clearInterval(interval);
-            statusText.textContent = "Hotovo! Zkontrolujte e-mail.";
-        }
+      if (progress >= 100) {
+        progress = 100;
+        clearInterval(interval);
+        if (statusText) statusText.textContent = "Hotovo! Zkontrolujte e-mail.";
+      }
 
-        // Update UI
-        progressFill.style.width = progress + "%";
-        percentageText.textContent = Math.round(progress) + "%";
+      // UI Updates
+      progressFill.style.width = progress + "%";
+      if (percentageText) percentageText.textContent = Math.round(progress) + "%";
 
-        // Dynamická změna statusů
-        const statusIdx = Math.floor((progress / 100) * statuses.length);
-        if (statuses[statusIdx]) {
-            statusText.textContent = statuses[statusIdx];
-        }
+      const statusIdx = Math.floor((progress / 100) * statuses.length);
+      if (statusText && statuses[statusIdx]) {
+        statusText.textContent = statuses[statusIdx];
+      }
 
-        // Aktivace tasků v seznamu
-        if (progress > 25) { markTask(0); activateTask(1); }
-        if (progress > 50) { markTask(1); activateTask(2); }
-        if (progress > 75) { markTask(2); activateTask(3); }
-        if (progress >= 98) { markTask(3); }
+      // Tasks Logic
+      if (progress > 25) { markTask(tasks, 0); activateTask(tasks, 1); }
+      if (progress > 50) { markTask(tasks, 1); activateTask(tasks, 2); }
+      if (progress > 75) { markTask(tasks, 2); activateTask(tasks, 3); }
+      if (progress >= 98) { markTask(tasks, 3); }
 
     }, 100);
+  }
 
-    function activateTask(idx) {
-        if (tasks[idx]) tasks[idx].classList.add('is-active');
-    }
+  function activateTask(taskList, idx) {
+    if (taskList[idx]) taskList[idx].classList.add('is-active');
+  }
 
-    function markTask(idx) {
-        if (tasks[idx]) {
-            tasks[idx].classList.remove('is-active');
-            tasks[idx].classList.add('is-done');
-        }
+  function markTask(taskList, idx) {
+    if (taskList[idx]) {
+      taskList[idx].classList.remove('is-active');
+      taskList[idx].classList.add('is-done');
     }
-})();</script></body></html>
+  }
+
+})();</script><script>document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('vv-hamburger');
+    const menu = document.getElementById('vv-mobile-menu');
+    const header = document.querySelector('.site-header');
+    const menuLinks = document.querySelectorAll('.navbar_mobile_overlay .menu li');
+    
+    if (btn && menu) {
+        btn.addEventListener('click', function() {
+            const isOpening = menu.classList.contains('is-hidden');
+            
+            btn.classList.toggle('is-active');
+            menu.classList.toggle('is-hidden');
+            
+            if (header) {
+                header.classList.toggle('menu-is-open');
+            }
+
+            if (isOpening) {
+                // Postupné najíždění (Stagger)
+                menuLinks.forEach((link, index) => {
+                    link.style.opacity = '0';
+                    link.style.transform = 'translateY(20px)';
+                    
+                    setTimeout(() => {
+                        link.style.transition = 'all 0.6s cubic-bezier(0.23, 1, 0.32, 1)';
+                        link.style.opacity = '1';
+                        link.style.transform = 'translateY(0)';
+                    }, 150 + (index * 80)); 
+                });
+                document.body.style.overflow = 'hidden';
+            } else {
+                // Při zavírání resetujeme styly pro příští otevření
+                menuLinks.forEach(link => {
+                    link.style.opacity = '0';
+                    link.style.transform = 'translateY(20px)';
+                    link.style.transition = 'none';
+                });
+                document.body.style.overflow = '';
+            }
+        });
+
+        // --- EFEKT 2: Extrémně jemný paralax ---
+        window.addEventListener('mousemove', (e) => {
+            if (!menu.classList.contains('is-hidden')) {
+                // Čím vyšší číslo (150+), tím jemnější pohyb
+                const x = (window.innerWidth / 2 - e.pageX) / 180;
+                const y = (window.innerHeight / 2 - e.pageY) / 180;
+                menu.style.transform = `translate(${x}px, ${y}px)`;
+            }
+        });
+
+        // Zavření po kliku na odkaz
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                btn.classList.remove('is-active');
+                menu.classList.add('is-hidden');
+                if (header) header.classList.remove('menu-is-open');
+                document.body.style.overflow = '';
+            });
+        });
+    }
+});</script></body></html>

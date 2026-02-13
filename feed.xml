@@ -3,7 +3,7 @@
     <title>Vibe Marketing </title>
     <link href="https://vibemarketing.cz/feed.xml" rel="self" />
     <link href="https://vibemarketing.cz" />
-    <updated>2026-02-13T16:40:16+01:00</updated>
+    <updated>2026-02-13T21:50:39+01:00</updated>
     <author>
         <name>František Mlčůch</name>
     </author>
@@ -16,15 +16,19 @@
         </author>
         <link href="https://vibemarketing.cz/proc-vznikl-vibe-marketing/"/>
         <id>https://vibemarketing.cz/proc-vznikl-vibe-marketing/</id>
+        <media:content url="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" medium="image" />
+            <category term="blog"/>
 
         <updated>2026-02-05T12:58:05+01:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" alt="" />
                     Marketing dnes není levný. A už vůbec není jednoduchý. Publikujete obsah. Platíte PPC. Sdílíte na sociálních sítích. A přesto si často kladete otázku: „Děláme to správně?“ Máte SEO nástroje. Máte&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" class="type:primaryImage" alt="" /></p>
                 <div>
 <p>Marketing dnes není levný. A už vůbec není jednoduchý.</p>
 
