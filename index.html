@@ -22,7 +22,7 @@
       
       
       <link rel="stylesheet" href="https://vibemarketing.cz/assets/css/style.css?v=f17d201197c32aff6260a00cfd869b87">
-      <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://vibemarketing.cz/"},"headline":"Vyzkoušet zdarma","datePublished":"2026-02-11T13:16+01:00","dateModified":"2026-02-14T14:26+01:00","description":"Budoucnost marketingu je v datech. Vložte URL a nechte naši AI vygenerovat hloubkovou strategii, analýzu cílovky a nápady na obsah. První 2 kredity máte zdarma!","author":{"@type":"Person","name":"František Mlčůch","url":"https://vibemarketing.cz/authors/frantisek-mlcuch/"},"publisher":{"@type":"Organization","name":"František Mlčůch"}}</script>
+      <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://vibemarketing.cz/"},"headline":"Vyzkoušet zdarma","datePublished":"2026-02-11T13:16+01:00","dateModified":"2026-02-14T17:47+01:00","description":"Budoucnost marketingu je v datech. Vložte URL a nechte naši AI vygenerovat hloubkovou strategii, analýzu cílovky a nápady na obsah. První 2 kredity máte zdarma!","author":{"@type":"Person","name":"František Mlčůch","url":"https://vibemarketing.cz/authors/frantisek-mlcuch/"},"publisher":{"@type":"Organization","name":"František Mlčůch"}}</script>
      
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap">
@@ -128,7 +128,7 @@
           </div>
           <h1 class="vv-title">Marketingový plán <br><span class="vv-text-gradient">z jedné URL</span></h1>
           <p class="vv-lead">
-            Vložte odkaz na váš článek. My vytvoříme SEO audit, content strategii, příspěvky na sítě a PPC plán. Výstup dorazí do e-mailu během minut.
+            Vložte odkaz na váš web nebo článek. My vytvoříme SEO audit, content strategii, příspěvky na sítě a PPC plán. Výstup dorazí do e-mailu během minut.
           </p>
           
           <div class="vv-actions">
@@ -590,6 +590,56 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+</script>
+<script> function generatePayment(plan) {
+    const emailInput = document.getElementById(plan === 'starter' ? 'email-starter' : 'email-pro');
+    const email = emailInput.value.trim();
+    
+    if (!email || !email.includes('@')) {
+        alert('Prosím, zadejte platný e-mail, abychom věděli, komu připsat kredity.');
+        emailInput.focus();
+        return;
+    }
+
+    const amount = (plan === 'starter') ? 490 : 1290;
+    const account = "2801587330"; // Doplň
+    const bankCode = "2010";     // Doplň
+    const message = `KREDITY ${email}`; 
+    const qrUrl = `https://api.paylibo.com/paylibo/generator/czech/image?accountNumber=${account}&bankCode=${bankCode}&amount=${amount}&currency=CZK&message=${encodeURIComponent(message)}`;
+
+    const modal = document.createElement('div');
+    modal.id = 'vv-payment-modal';
+    modal.innerHTML = `
+        <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); backdrop-filter: blur(8px); z-index: 9999; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; padding: 20px; box-sizing: border-box;">
+            <div style="background: #16161D; border: 1px solid #2D2D3A; border-radius: 24px; padding: 40px; width: 100%; max-width: 420px; text-align: center; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
+                <button onclick="document.getElementById('vv-payment-modal').remove()" style="position: absolute; top: 20px; right: 20px; background: none; border: none; color: #94A3B8; cursor: pointer; font-size: 24px;">&times;</button>
+                
+                <h2 style="color: #fff; margin-bottom: 10px; font-size: 24px;">Téměř hotovo! 🚀</h2>
+                <p style="color: #94A3B8; margin-bottom: 25px; font-size: 15px;">Naskenujte QR kód ve své bankovní aplikaci.</p>
+                
+                <div style="background: #fff; padding: 15px; border-radius: 16px; display: inline-block; margin-bottom: 25px; box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);">
+                    <img src="${qrUrl}" alt="QR Platba" style="width: 220px; display: block;">
+                </div>
+                
+                <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.2); padding: 18px; border-radius: 12px; text-align: left; margin-bottom: 20px;">
+                    <p style="margin: 0; color: #94A3B8; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px;">Zpráva pro příjemce (e-mail):</p>
+                    <p style="margin: 5px 0 0 0; color: #fff; font-size: 16px; font-weight: bold; word-break: break-all;">${message}</p>
+                </div>
+                
+                <div style="background: rgba(236, 72, 153, 0.1); border: 1px solid rgba(236, 72, 153, 0.2); padding: 12px; border-radius: 10px; margin-bottom: 25px;">
+                    <p style="margin: 0; color: #EC4899; font-size: 13px; line-height: 1.4;">
+                        ⚠️ <strong>Důležité:</strong> Zkontrolujte, zda e-mail ve zprávě odpovídá vašemu účtu. Bez něj nedokážeme platbu automaticky spárovat.
+                    </p>
+                </div>
+                
+                <button onclick="document.getElementById('vv-payment-modal').remove()" style="background: linear-gradient(to right, #6366F1, #EC4899); color: #fff; border: none; padding: 15px 25px; border-radius: 30px; cursor: pointer; width: 100%; font-weight: bold; font-size: 16px; transition: transform 0.2s;">
+                    MÁM ZKONTROLOVÁNO A ZAPLACENO
+                </button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+}
 </script>
 
    
