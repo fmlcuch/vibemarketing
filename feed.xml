@@ -3,12 +3,384 @@
     <title>Vibe Marketing </title>
     <link href="https://vibemarketing.cz/feed.xml" rel="self" />
     <link href="https://vibemarketing.cz" />
-    <updated>2026-02-13T21:50:39+01:00</updated>
+    <updated>2026-02-14T14:34:23+01:00</updated>
     <author>
         <name>František Mlčůch</name>
     </author>
     <id>https://vibemarketing.cz</id>
 
+    <entry>
+        <title>Od analýzy k výsledkům – Jak řídit marketing v roce 2026</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/od-analyzy-k-vysledkum-jak-ridit-marketing-v-roce-2026/"/>
+        <id>https://vibemarketing.cz/od-analyzy-k-vysledkum-jak-ridit-marketing-v-roce-2026/</id>
+            <category term="Blog"/>
+
+        <updated>2026-02-14T14:14:32+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Strategický růst Analýza bez akce jsou jen drahá data. Pojďme si ukázat, jak přetavit report VibeMarketing do konkrétních výsledků během prvních 30 dnů. V reportu najdete desítky doporučení. Nejdůležitější je&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px;">
+    <div class="vv-badge">Strategický růst</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Analýza bez akce jsou jen drahá data. Pojďme si ukázat, jak přetavit report VibeMarketing do konkrétních výsledků během prvních 30 dnů.</p>
+  </header>
+
+  <section id="priorities">
+    <h2>1. Metoda „Low Hanging Fruit“</h2>
+    <p>V reportu najdete desítky doporučení. Nejdůležitější je začít těmi, které mají největší dopad s nejmenším úsilím. Většinou jde o:</p>
+    <ul>
+      <li><strong>Oprava H1 nadpisů a Meta popisů:</strong> Práce na 10 minut, která může zvýšit prokliky (CTR) z Google o desítky procent.</li>
+      <li><strong>A/B testování hlavního tlačítka:</strong> Změna textu z „Odeslat“ na „Získat analýzu zdarma“ může okamžitě zvednout konverze.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="action-plan">
+    <h2>2. Prvních 30 dní v akci</h2>
+    <p>Naše analýza obsahuje <strong>30 Day Action Plan</strong>. Tady je návod, jak ho číst:</p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 25px 0;">
+        <div style="background: rgba(99, 102, 241, 0.05); padding: 20px; border-radius: 12px; border: 1px solid var(--glass-border);">
+            <h4 style="color: var(--primary); margin-top: 0;">Týden 1–2: Fixy</h4>
+            <p style="font-size: 0.9rem; margin-bottom: 0;">Oprava technických chyb, nastavení měření (GA4) a úprava textů na nejdůležitějších stránkách.</p>
+        </div>
+        <div style="background: rgba(236, 72, 153, 0.05); padding: 20px; border-radius: 12px; border: 1px solid var(--glass-border);">
+            <h4 style="color: #ec4899; margin-top: 0;">Týden 3–4: Šíření</h4>
+            <p style="font-size: 0.9rem; margin-bottom: 0;">Spuštění kampaní, publikace prvních „vyladěných“ postů na sítě a sběr prvních dat.</p>
+        </div>
+    </div>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="tracking">
+    <h2>3. Měření a iterace: Proč se dívat na data</h2>
+    <p>Marketing není statický. To, co fungovalo dnes, nemusí fungovat za měsíc. V sekci <strong>Tracking & Measurement</strong> vám ukazujeme, jaké události (Events) sledovat. Neřešte jen celkovou návštěvnost, řešte:</p>
+    <ul>
+      <li><strong>Poměr registrací k návštěvám</strong> (Conversion Rate).</li>
+      <li><strong>Cenu za získaného zákazníka</strong> (CPA).</li>
+      <li><strong>Kde lidé z webu odcházejí</strong> (Exit pages).</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="evolution">
+    <h2>4. Marketing jako evoluce</h2>
+    <p>VibeMarketing analýza vám dala mapu. Ale vy jste ten, kdo musí řídit auto. Pravidelná optimalizace na základě dat je to, co odlišuje úspěšné projekty od těch, které po roce zaniknou.</p>
+  </section>
+
+  <footer style="margin-top: 60px; padding: 40px; background: var(--glass-bg); border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.1);">
+    <h3 style="margin-top: 0;">Máte plán, nebo jen doufáte?</h3>
+    <p>Nechte AI navrhnout váš příští akční krok. Stačí zadat URL vašeho webu.</p>
+    <a href="/" class="vv-btn vv-btn--glow">Analyzovat a naplánovat růst</a>
+  </footer>
+</article></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Distribuce obsahu – Jak nebýt neviditelný</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/distribuce-obsahu-jak-nebyt-neviditelny/"/>
+        <id>https://vibemarketing.cz/distribuce-obsahu-jak-nebyt-neviditelny/</id>
+            <category term="Blog"/>
+
+        <updated>2026-02-14T13:59:34+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Distribuce & Sociální sítě Můžete mít nejlepší článek na světě, ale pokud o něm nikdo neví, jako by neexistoval. Podívejme se na strategii, jak ovládnout feedy vašich zákazníků. Úspěšní markeťáci&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px;">
+    <div class="vv-badge">Distribuce & Sociální sítě</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Můžete mít nejlepší článek na světě, ale pokud o něm nikdo neví, jako by neexistoval. Podívejme se na strategii, jak ovládnout feedy vašich zákazníků.</p>
+  </header>
+
+  <section id="distribution">
+    <h2>1. Pravidlo 20/80 v marketingu</h2>
+    <p>Úspěšní markeťáci vědí, že 20 % času zabere tvorba obsahu a 80 % času jeho distribuce. V reportu VibeMarketing vám ukazujeme, jak jeden nápad přetavit do deseti různých formátů pro různé platformy.</p>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="platform-strategy">
+    <h2>2. Každá platforma má svůj jazyk</h2>
+    <p>V naší analýze rozdělujeme strategii podle toho, kde se vaše cílová skupina pohybuje:</p>
+    <ul>
+      <li><strong>LinkedIn:</strong> Zde funguje autorita, data a odborný názor. Ideální pro budování důvěry v B2B.</li>
+      <li><strong>Facebook:</strong> Prostředí pro storytelling a emoce. Lidé zde hledají příběhy, se kterými se ztotožní.</li>
+      <li><strong>X (Twitter):</strong> Údernost, čísla a rychlé postřehy. Skvělé pro budování expertního statusu v reálném čase.</li>
+      <li><strong>Reels / TikTok:</strong> Krátká videa s okamžitým háčkem (Hook). Musíte zaujmout během prvních 2 sekund.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="viral-potential">
+    <h2>3. Viralita není náhoda</h2>
+    <p>V analýze hodnotíme <strong>Viral Potential</strong>. Aby se obsah šířil sám, musí splňovat alespoň jeden z těchto bodů:</p>
+    <div style="background: rgba(255,255,255,0.03); padding: 25px; border-radius: 12px; border: 1px dashed var(--primary);">
+        <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+            <li style="margin-bottom: 10px;"><strong>💡 Polarizace:</strong> Máte na věc jasný a odlišný názor?</li>
+            <li style="margin-bottom: 10px;"><strong>📊 Hodnota:</strong> Je obsah natolik užitečný, že si ho lidé chtějí uložit na později?</li>
+            <li style="margin-bottom: 0;"><strong>❤️ Emoce:</strong> Vyvolává příspěvek radost, hněv nebo naději?</li>
+        </ul>
+    </div>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="paid-support">
+    <h2>4. Placená podpora: Turbo pro váš obsah</h2>
+    <p>Organický dosah je dnes omezený. Proto v reportu navrhujeme i <strong>Paid Ads Strategy</strong>. Reklama by neměla být "tlačení produktu", ale doručení správného obsahu správnému člověku ve správnou chvíli (tzv. retargeting).</p>
+  </section>
+
+  <footer style="margin-top: 60px; padding: 40px; background: var(--glass-bg); border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.1);">
+    <h3>Chcete vědět, kde na vás čekají zákazníci?</h3>
+    <p>Nechte si vypracovat kompletní plán distribuce a sociálních sítí na míru vašemu webu.</p>
+    <a href="/" class="vv-btn vv-btn--glow">Analyzovat můj web</a>
+  </footer>
+</article></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Anatomie konverze – Jak proměnit návštěvníka v zákazníka</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/anatomie-konverze-jak-promenit-navstevnika-v-zakaznika/"/>
+        <id>https://vibemarketing.cz/anatomie-konverze-jak-promenit-navstevnika-v-zakaznika/</id>
+            <category term="Blog"/>
+
+        <updated>2026-02-14T13:56:21+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Konverzní strategie Mít vysokou návštěvnost je fajn, ale pokud nikdo nekliká na „Koupit“, máte jen drahé digitální leporelo. Pojďme se podívat, jak fungují konverzní mechanismy v praxi. V analýze VibeMarketing&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px;">
+    <div class="vv-badge">Konverzní strategie</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Mít vysokou návštěvnost je fajn, ale pokud nikdo nekliká na „Koupit“, máte jen drahé digitální leporelo. Pojďme se podívat, jak fungují konverzní mechanismy v praxi.</p>
+  </header>
+
+  <section id="conversion-gap">
+    <h2>1. Co je to „Conversion Gap“?</h2>
+    <p>V analýze VibeMarketing často narážíme na termín <strong>Conversion Gap</strong>. Je to propast mezi tím, co uživatel na webu hledá, a tím, co mu nabízíte jako další krok. Pokud uživatel dočte článek a na konci není žádná výzva k akci, prostě odejde.</p>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="cta-hierarchy">
+    <h2>2. Hierarchie výzev k akci (CTA)</h2>
+    <p>Nestačí mít na webu jedno tlačítko „Kontaktujte nás“. Moderní web musí pracovat s různou intenzitou zájmu:</p>
+    <ul>
+      <li><strong>Main CTA:</strong> Hlavní cíl (např. Nákup, Registrace). Mělo by být nejvýraznější.</li>
+      <li><strong>Micro-CTA:</strong> Malé krůčky (např. „Zjistit více“, „Prohlédnout reference“). Pomáhají budovat důvěru před hlavním rozhodnutím.</li>
+      <li><strong>Soft CTA:</strong> Nenásilné nabídky (např. odběr newsletteru), které udržují kontakt s někým, kdo ještě není připraven koupit.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="lead-magnet">
+    <h2>3. Lead Magnet: Výměnný obchod, který funguje</h2>
+    <p>Lidé dnes neradi dávají svůj e-mail jen tak. <strong>Lead Magnet</strong> je hodnotný obsah, který jim dáte zdarma výměnou za kontakt. Může to být:</p>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+        <div style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+            <strong>✓ Checklist / Tahák</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+            <strong>✓ E-book nebo studie</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+            <strong>✓ Slevový kód</strong>
+        </div>
+        <div style="background: rgba(255,255,255,0.02); padding: 15px; border-radius: 8px; border: 1px solid var(--glass-border);">
+            <strong>✓ Video lekce</strong>
+        </div>
+    </div>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="exit-intent">
+    <h2>4. Exit-Intent: Poslední šance zachránit obchod</h2>
+    <p>Technologie <strong>Exit-Intent</strong> sleduje pohyb myši. Když uživatel směřuje k zavření karty, vyvolá se pop-up okno. Není to otravování – je to relevantní nabídka v poslední vteřině, která dokáže zvýšit konverze až o 15 %.</p>
+  </section>
+
+  <footer style="margin-top: 60px; padding: 40px; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%); border-radius: 20px; border: 1px solid var(--glass-border); text-align: center;">
+    <h3 style="margin-top: 0;">Ztrácíte zákazníky mezi řádky?</h3>
+    <p>Zjistěte, kde má váš web slabá místa a jak je opravit pomocí chytré konverzní strategie.</p>
+    <a href="/" class="vv-btn vv-btn--glow">Chci analýzu konverzí</a>
+  </footer>
+</article></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Psychologie prodeje – Jak najít váš „Aha Moment“</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/psychologie-prodeje-jak-najit-vas-aha-moment/"/>
+        <id>https://vibemarketing.cz/psychologie-prodeje-jak-najit-vas-aha-moment/</id>
+            <category term="Blog"/>
+
+        <updated>2026-02-14T13:55:11+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Psychologie & Positioning Marketing není o barvě tlačítek, ale o pochopení lidského strachu, touhy a okamžiku, kdy si zákazník řekne: „Tohle přesně potřebuju.“ V reportu VibeMarketing neuvidíte jen suchá demografická&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px;">
+    <div class="vv-badge">Psychologie & Positioning</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Marketing není o barvě tlačítek, ale o pochopení lidského strachu, touhy a okamžiku, kdy si zákazník řekne: „Tohle přesně potřebuju.“</p>
+  </header>
+
+  <section id="persona">
+    <h2>1. Definice persony: Kdo sedí na druhé straně?</h2>
+    <p>V reportu VibeMarketing neuvidíte jen suchá demografická data. Hledáme skutečného člověka. Persona není jen „žena 30+“, je to člověk s konkrétním problémem, který se snaží vyřešit ve 23:00 u počítače.</p>
+    <ul>
+      <li><strong>Motivace:</strong> Co ho nutí hledat změnu právě teď?</li>
+      <li><strong>Bariéry:</strong> Proč u vás ještě nenoupil? (Strach z podvodu, nedostatek času, vysoká cena).</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="aha-moment">
+    <h2>2. „Aha Moment“ – Bod zlomu</h2>
+    <p>Toto je klíčový pojem naší analýzy. <strong>Aha Moment</strong> je vteřina, kdy uživatel pochopí hlavní hodnotu vašeho produktu. </p>
+    <blockquote>
+      „Je to ten moment, kdy se z návštěvníka, který jen scrolluje, stává fanoušek, který rozumí, jak mu změníte život.“
+    </blockquote>
+    <p>Pokud vaše stránka tento moment nedoručí v prvních 10 vteřinách, pravděpodobně uživatele ztratíte.</p>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="triggers">
+    <h2>3. Main Trigger: Co spouští akci?</h2>
+    <p>Lidské rozhodování je poháněno emocemi. V sekci <em>Psychology & Positioning</em> identifikujeme váš hlavní spouštěč (Main Trigger):</p>
+    <ul>
+      <li><strong>Strach z uvíznutí:</strong> Touha utéct z aktuální situace (např. nudná práce).</li>
+      <li><strong>Touha po statusu:</strong> Potřeba někam patřit nebo vyniknout.</li>
+      <li><strong>Úspora/Zisk:</strong> Čistě racionální a ekonomický motiv.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="angle">
+    <h2>4. Polarizing Angle: Proč nebýt pro každého</h2>
+    <p>Dobrá strategie se nebojí vyhranit. Pokud se snažíte zavděčit všem, neoslovíte nikoho. <strong>Polarizing Angle</strong> (polarizující pohled) je váš unikátní názor, který vás odliší od konkurence – i za cenu, že s vámi někdo nebude souhlasit.</p>
+  </section>
+
+  <footer style="margin-top: 60px; padding: 30px; background: rgba(99, 102, 241, 0.05); border-radius: 16px; border: 1px solid var(--primary); text-align: center;">
+    <h3>Chcete vědět, co pohání vaše zákazníky?</h3>
+    <p>Nechte si vygenerovat psychologický profil vaší cílové skupiny.</p>
+    <a href="/" class="vv-btn vv-btn--glow">Spustit analýzu URL</a>
+  </footer>
+</article></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Jak pracovat s analýzou VibeMarketing</title>
+        <author>
+            <name>František Mlčůch</name>
+        </author>
+        <link href="https://vibemarketing.cz/jak-pracovat-s-analyzou-vibemarketing/"/>
+        <id>https://vibemarketing.cz/jak-pracovat-s-analyzou-vibemarketing/</id>
+            <category term="Blog"/>
+
+        <updated>2026-02-14T13:52:38+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Průvodce analýzou Získali jste hloubkovou analýzu svého URL. Co ale ty zkratky a čísla znamenají pro váš byznys? Zde je vysvětlení klíčových pilířů naší strategie. Scorecard je rychlý přehled zdraví&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px;">
+    <div class="vv-badge">Průvodce analýzou</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Získali jste hloubkovou analýzu svého URL. Co ale ty zkratky a čísla znamenají pro váš byznys? Zde je vysvětlení klíčových pilířů naší strategie.</p>
+  </header>
+
+  <section id="scorecard">
+    <h2>1. Performance Scorecard: Vaše vysvědčení</h2>
+    <p>Scorecard je rychlý přehled zdraví vašeho webu. Hodnotíme čtyři klíčové oblasti na stupnici 0–100:</p>
+    <ul>
+      <li><strong>SEO Score:</strong> Technická připravenost pro vyhledávače a struktura obsahu.</li>
+      <li><strong>Content Quality:</strong> Jak moc je váš text přínosný, čitelný a odborně podložený.</li>
+      <li><strong>Conversion:</strong> Schopnost webu proměnit návštěvníka v platícího zákazníka.</li>
+      <li><strong>Viral Potential:</strong> Emoční náboj a sdílitelnost vašeho sdělení.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="seo-terms">
+    <h2>2. Strategické SEO pojmy</h2>
+    <p>V analýze se setkáte s termíny, které určují, jak vysoko se budete zobrazovat v Google:</p>
+    <div style="background: rgba(255,255,255,0.03); padding: 20px; border-radius: 12px; border-left: 4px solid var(--primary);">
+      <ul style="list-style: none; padding-left: 0;">
+        <li style="margin-bottom: 15px;"><strong>Primary Intent (Záměr):</strong> Rozlišujeme, zda uživatel chce nakoupit (Transakční) nebo se jen vzdělávat (Informační). Strategie musí pokrýt oba tyto stavy.</li>
+        <li style="margin-bottom: 15px;"><strong>Featured Snippet:</strong> Vybraný úryvek textu, který Google zobrazuje úplně nahoře. K jeho získání potřebujete často sekci <strong>FAQ</strong> (často kladené dotazy).</li>
+        <li style="margin-bottom: 0;"><strong>Obsahové clustery:</strong> Skupiny článků, které se točí kolem jednoho tématu a jsou vzájemně prolinkované. Zvyšují vaši autoritu v očích AI vyhledávačů.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="conversion">
+    <h2>3. Konverzní mechanismy: Cesta k zisku</h2>
+    <p>Pokud web jen "prohlíží", ale nenakupují, pravděpodobně vám chybí tyto prvky:</p>
+    <ul>
+      <li><strong>Lead Magnet:</strong> Hodnotný obsah zdarma (e-book, checklist) výměnou za e-mail uživatele.</li>
+      <li><strong>Micro-CTA:</strong> Menší výzvy k akci (např. "Zjistit více"), které uživatele postupně vedou k hlavnímu cíli.</li>
+      <li><strong>Exit-Intent Popup:</strong> Okno, které se zobrazí ve chvíli, kdy uživatel chce odejít z webu, a nabídne mu poslední důvod, proč zůstat.</li>
+    </ul>
+  </section>
+
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
+
+  <section id="eeat">
+    <h2>4. Co je to E-E-A-T a proč na tom záleží?</h2>
+    <p>Zkratka znamená <strong>Experience, Expertise, Authoritativeness, Trustworthiness</strong> (Zkušenost, Odbornost, Autorita, Důvěryhodnost). Pokud v analýze vidíte slabé E-E-A-T, znamená to, že web nepůsobí dostatečně důvěryhodně (chybí profily autorů, certifikace nebo reálné případové studie).</p>
+  </section>
+
+  <footer style="margin-top: 60px; padding: 30px; background: var(--glass-bg); border-radius: 16px; text-align: center;">
+    <h3>Chcete vlastní analýzu pro váš projekt?</h3>
+    <p>Vložte své URL a nechte naši AI vypracovat strategii, která dává smysl.</p>
+    <a href="https://vibemarketing.cz/#try" class="vv-btn vv-btn--glow">Analyzovat URL nyní</a>
+  </footer>
+</article></div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Proč vznikl Vibe Marketing</title>
         <author>
@@ -17,125 +389,64 @@
         <link href="https://vibemarketing.cz/proc-vznikl-vibe-marketing/"/>
         <id>https://vibemarketing.cz/proc-vznikl-vibe-marketing/</id>
         <media:content url="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" medium="image" />
-            <category term="blog"/>
+            <category term="Blog"/>
 
-        <updated>2026-02-05T12:58:05+01:00</updated>
+        <updated>2026-02-14T10:00:00+01:00</updated>
             <summary type="html">
                 <![CDATA[
                         <img src="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" alt="" />
-                    Marketing dnes není levný. A už vůbec není jednoduchý. Publikujete obsah. Platíte PPC. Sdílíte na sociálních sítích. A přesto si často kladete otázku: „Děláme to správně?“ Máte SEO nástroje. Máte&hellip;
+                    Náš příběh Příběh o tom, jak nás nebavilo čekat, a proč věříme, že budoucnost marketingu leží v datech a rychlosti AI. Pamatujete si, jak se dělaly marketingové strategie dřív? Zadali&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://vibemarketing.cz/media/posts/1/freepik__herer-is-css-generate-favicon-for-web-vibemarketin__86861.jpeg" class="type:primaryImage" alt="" /></p>
-                <div>
-<p>Marketing dnes není levný. A už vůbec není jednoduchý.</p>
+                <div><article class="vv-glass-card post-content" style="max-width: 900px; margin: 0 auto; padding: 40px;">
+  <header style="margin-bottom: 40px; text-align: center;">
+    <div class="vv-badge">Náš příběh</div>
+    <p style="font-size: 1.1rem; color: var(--text-muted);">Příběh o tom, jak nás nebavilo čekat, a proč věříme, že budoucnost marketingu leží v datech a rychlosti AI.</p>
+  </header>
 
-<p>Publikujete obsah. Platíte PPC. Sdílíte na sociálních sítích.  
-A přesto si často kladete otázku:</p>
+  <section id="the-problem">
+    <h2>Starý model marketingu je rozbitý</h2>
+    <p>Pamatujete si, jak se dělaly marketingové strategie dřív? Zadali jste poptávku agentuře, čekali jste týden na schůzku, další dva týdny na analýzu a pak jste dostali 60stránkové PDF, kterému nikdo nerozuměl a za měsíc už nebylo aktuální.</p>
+    <p>V dnešním světě, kde se trendy mění během hodin, je tento proces prostě příliš pomalý. <strong>Vibe Marketing vznikl z frustrace nad touto neefektivitou.</strong></p>
+  </section>
 
-<p><strong>„Děláme to správně?“</strong></p>
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
 
-<hr>
+  <section id="the-vision">
+    <h2>Naše vize: Od chaosu k jasnému plánu za minutu</h2>
+    <p>Věříme, že každý majitel projektu, freelancer nebo markeťák by měl mít přístup ke špičkové strategii bez ohledu na rozpočet nebo časové kapacity. Chtěli jsme vytvořit nástroj, který vezme to nejlepší z lidského know-how a spojí to s brutální silou AI.</p>
+    
+    <div style="background: rgba(99, 102, 241, 0.05); padding: 25px; border-radius: 12px; border: 1px solid var(--primary); margin: 30px 0;">
+        <h4 style="margin-top: 0; color: #fff;">Tři pilíře, na kterých stavíme:</h4>
+        <ul style="list-style: none; padding-left: 0; margin-bottom: 0;">
+            <li style="margin-bottom: 10px;"><strong>⚡ Rychlost:</strong> Analýza, na kterou se dřív čekalo dny, je hotová, než si dopijete kávu.</li>
+            <li style="margin-bottom: 10px;"><strong>🎯 Přesnost:</strong> AI nepracuje s domněnkami, ale analyzuje reálný obsah vašeho webu.</li>
+            <li style="margin-bottom: 0;"><strong>🛠️ Praktičnost:</strong> Nechceme teoretické texty. Chceme akční kroky, které můžete začít plnit hned zítra.</li>
+        </ul>
+    </div>
+  </section>
 
-<h2>Skutečný problém není v nástrojích</h2>
+  <section id="why-vibe">
+    <h2>Proč „Vibe“?</h2>
+    <p>Marketing není jen o číslech. Je to o **vibraci**, kterou váš projekt vysílá do světa. Pokud váš web říká něco jiného než vaše sociální sítě a vaše reklamy míří na špatné lidi, tato vibrace je rozladěná. Vibe Marketing vám pomůže najít ten správný tón, který přitáhne ty správné zákazníky.</p>
+  </section>
 
-<p>Máte SEO nástroje. Máte analytiku. Možná i agenturu.</p>
+  <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 40px 0;">
 
-<p>Ale chybí vám rychlá, jasná odpověď na tři zásadní věci:</p>
+  <section id="founder">
+    <h2>Začínáme u URL</h2>
+    <p>Vše, co potřebujete, už pravděpodobně máte – svůj web. Naším posláním je vzít tento základ a ukázat vám jeho skrytý potenciál. Bez nesmyslných konzultací, bez drahých měsíčních paušálů. Jen vy, vaše URL a jasná cesta k růstu.</p>
+  </section>
 
-<ul>
-<li>Proč tento konkrétní článek neroste?</li>
-<li>Kde ztrácíme konverze?</li>
-<li>Co má největší prioritu právě teď?</li>
-</ul>
-
-<p>Místo toho dostáváte desítky metrik, reportů a doporučení bez kontextu.</p>
-
-<p>Výsledek? Čas se pálí. Rozpočet se pálí. Směr zůstává nejasný.</p>
-
-<hr>
-
-<h2>Kolik vás to stojí?</h2>
-
-<p>Externí audit: 15 000–50 000 Kč.  
-Strategie od agentury: týdny čekání.  
-Testování bez jasného směru: desítky tisíc v reklamě.</p>
-
-<p>A přesto často nevíte, kde je skutečný problém.</p>
-
-<p><strong>Vibe Marketing vznikl, aby tuto nejistotu odstranil během minut – ne měsíců.</strong></p>
-
-<hr>
-
-<h2>Co řeší</h2>
-
-<p>Z jednoho URL (článek, landing page, případová studie) získáte:</p>
-
-<ul>
-<li>Jasné vyhodnocení SEO potenciálu</li>
-<li>Identifikaci slabých míst v obsahu</li>
-<li>Odhalení chybějícího obchodního tahu</li>
-<li>Návrh, jak obsah využít v PPC a na sítích</li>
-<li>Jedno prioritní rozhodnutí, které má největší dopad</li>
-</ul>
-
-<p>Ne další PDF do šuplíku.  
-Ale konkrétní akční plán.</p>
-
-<hr>
-
-<h2>Co tím reálně ušetříte?</h2>
-
-<ul>
-<li>Hodiny analýz a hledání souvislostí</li>
-<li>Náklady na dílčí specialisty</li>
-<li>Rozpočet utracený za špatně nastavené kampaně</li>
-<li>Nejistotu, která brzdí rozhodování</li>
-</ul>
-
-<p>Místo tří týdnů analýz máte během pár minut jasno.</p>
-
-<hr>
-
-<h2>Pro koho to dává smysl</h2>
-
-<ul>
-<li>Pro firmy, které chtějí víc než jen návštěvnost.</li>
-<li>Pro marketing manažery, kteří potřebují rychlé podklady pro rozhodnutí.</li>
-<li>Pro zakladatele, kteří chtějí vědět, kam má jít rozpočet.</li>
-<li>Pro freelancery, kteří chtějí klientům dodat strategii bez hodin příprav.</li>
-</ul>
-
-<hr>
-
-<h2>Jednoduchý princip</h2>
-
-<ol>
-<li>Vložíte URL.</li>
-<li>Během minut získáte kompletní přehled.</li>
-<li>Rozhodnete se na základě dat, ne pocitu.</li>
-</ol>
-
-<p>Bez platební karty.  
-Bez závazků.  
-Bez čekání.</p>
-
-<hr>
-
-<h2>Marketing by neměl být sázka.</h2>
-
-<p>Měl by být řízené rozhodování.</p>
-
-<p><strong>Vibe Marketing vznikl proto, abyste věděli, co dělat dál — dřív, než utratíte další tisíce.</strong></p>
-
-<p style="margin-top:30px;">
-<a href="https://vibemarketing.cz/#try" class="tlacitko">
-Vyzkoušet zdarma
-</a>
-</p>
-</div>
+  <footer style="margin-top: 60px; padding: 40px; background: var(--glass-bg); border-radius: 20px; text-align: center; border: 1px solid rgba(255,255,255,0.1);">
+    <h3 style="margin-top: 0;">Jste připraveni změnit svůj marketing?</h3>
+    <p>Vyzkoušejte si první analýzu a zjistěte, jaký je „Vibe“ vašeho projektu.</p>
+    <a href="/" class="vv-btn vv-btn--glow">Vytvořit moji strategii</a>
+  </footer>
+</article></div>
             ]]>
         </content>
     </entry>
