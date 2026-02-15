@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Vibe Marketing | AI SEO analýza pro marketing",
+    "title": "Vibe Marketing",
     "description": "",
     "home_page_url": "https://vibemarketing.cz",
     "feed_url": "https://vibemarketing.cz/feed.json",
@@ -22,7 +22,7 @@
                    "Blog"
             ],
             "date_published": "2026-02-14T14:14:32+01:00",
-            "date_modified": "2026-02-14T14:20:22+01:00"
+            "date_modified": "2026-02-15T15:57:25+01:00"
         },
         {
             "id": "https://vibemarketing.cz/distribuce-obsahu-jak-nebyt-neviditelny/",
